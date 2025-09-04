@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>An Introduction to Me.</title>
+  <style>
+  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  }
+  </style>
 </head>
 <body>
   <h1>Getting to Know Me.</h1>
   <p>My name is Damon Jackson, I currently attend Florida A & M University and my Major is Computer Science.</p>
   <p>I enjoy reading, drawing, and discussing topics such as history or philosophy. After college I plan to pursue a career in cybersecurity.</p>
+  <form>
+    <label for="fname">First Name:</label>
+    <input type="text" name="fname" id="fname"><br><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" name="lname" id="lname"><br><br>
+    <label for="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email:</label>
+    <input type="text" name="email" id="email"><br><br> 
+    <label for="pword">&nbsp;&nbsp;Password:</label>
+    <input type="password" name="pword" id="pword"><br><br>
+    <label for="lsite">Do you like our site? Yes/No:</label>
+    <input type="radio" name="lsite" id="lsite"><br><br>
+    <label for="subscribe">Subscribe to newsletter</label>
+    <input type="checkbox" name="subscribe" id="subscribe"><br><br>
+    <label for="browser">Which browser do you use?</label>
+    <select name="browser" id="browser">
+      <option value="chrome">Google Chrome</option>
+      <option value="edge">Microsoft Edge</option>
+      <option value="firefox">Mozilla Firefox</option>
+      <option value="opera">Opera or Opera GX</option>
+      <option value="safari">Safari</option>
+      <option value="samsung">Samsung Internet</option>
+      <option value="other">Other</option>
+    </select><br><br>
+    <label for="submit">Submit:</label>
+    <input type="submit" name="submit" id="submit" value="Click Me!">
+  </form><br>
+  <table>
+  	<tr>
+    	<th>Products</th>
+    </tr>
+    <tr>
+    	<td>Bookbags</td>
+    </tr>
+    <tr>
+    	<td>Mugs</td>
+    </tr>
+    <tr>
+    	<td>Sweatshirts</td>
+    </tr>
+  </table>
 </body>
 </html>
