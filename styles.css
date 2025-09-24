@@ -1,1 +1,16 @@
+body {
+   font-family: times new roman; 
+}
+.changecolor {
+  color: red;
+}
+#special {
+  font-style: bold; 
+}
+h1 { 
+  color: steelblue; 
+}
+h2 { 
+  color: teal; 
+}
 
