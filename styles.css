@@ -1,0 +1,21 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+.changecolor {
+  color: red;
+}
+#special {
+  font-style: bold; 
+}
+h1 { 
+  color: steelblue; 
+}
+h2 { 
+  color: teal; 
+}
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
