@@ -14,3 +14,18 @@ else if ((document.getElementById("age") > 18) && (document.getElementById("age"
 else
   console.out("Old Aged");
 
+function builduRL() {
+  
+}
+
+function renderList() {
+
+}
+
+function handleError() {
+
+}
+
+function filterData() {
+
+}
