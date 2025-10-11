@@ -9,23 +9,26 @@ console.log(age === agestr); //strict comparison operator demonstration. It will
 if (age != agestr) //logical operator demonstration.
   console.log("Numbers and strings are not equal.");
 
-let email = document.getElementById("email").input;
-let v = null;
-if ((email.length >= 10) {
-    v = true;
-}
-else {
-    v = false;
-}
               
 function getName() {
 
 }
 
-function changeName() { 
-
+function checkPass() { 
+  const password = document.getElementById("pword").value;
+  if (password.length < 6)
+    console.out("Invalid password");
+  else 
+    console.out("Password is valid");
 }
 
 function checkEmail() {
-  
+  let email = document.getElementById("email").value;
+  let v = null;
+  if (email.length >= 10) {
+      v = true;
+  }
+  else {
+      v = false;
 }
+
