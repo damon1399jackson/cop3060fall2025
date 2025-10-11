@@ -9,6 +9,14 @@ console.log(age === agestr); //strict comparison operator demonstration. It will
 if (age != agestr) //logical operator demonstration.
   console.log("Numbers and strings are not equal.");
 
+let email = document.getElementById("email").input;
+let v = null;
+if ((email.length >= 10) {
+    v = true;
+}
+else {
+    v = false;
+}
               
 function getName() {
 
@@ -18,6 +26,6 @@ function changeName() {
 
 }
 
-function checkStatus() {
-
+function checkEmail() {
+  
 }
